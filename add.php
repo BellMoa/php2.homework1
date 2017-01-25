@@ -1,4 +1,5 @@
 <?php
+require_once  __DIR__ .'/model/news.php';
 if (!empty($_POST)){
     $data=[];
    if (!empty($_POST['title'])){
@@ -10,12 +11,10 @@ if (!empty($_POST)){
    if (!empty($_POST['date'])){
     $data['date']=$_POST['date'];
    }
-   if (!empty($_POST['time'])){
-       $data['time'] = $_POST['time'];
-   }
 
-   if (isset($data['title']) && isset($data['text']) && isset($data['date']) && isset($data['time'])){
-
+   if (isset($data['title']) && isset($data['text']) && isset($data['date'])){
+    newsInsert($data);
+    header('Location: /');
    }
 
 return false;

@@ -21,11 +21,6 @@
 
     </tr>
     <tr>
-        <td style="border: 1px solid black"><label for="time">Время публикации</label></td>
-        <td style="border: 1px solid black"><input type="time" id="time" name="time"></td>
-
-    </tr>
-    <tr>
         <td colspan="2" style="border: 1px solid black;text-align: center"><input type="submit" value="Отправить"></td>
     </tr>
 </table>
