@@ -22,7 +22,7 @@
     </tr>
     <tr>
         <td style="border: 1px solid black"><label for="time">Время публикации</label></td>
-        <td style="border: 1px solid black"><input type="time" id="time"></td>
+        <td style="border: 1px solid black"><input type="time" id="time" name="time"></td>
 
     </tr>
     <tr>
