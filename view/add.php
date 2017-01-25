@@ -8,21 +8,21 @@
 <form action="/add.php" method="post">
 <table style="border: 1px solid black;border-collapse: collapse;width: 400px">
 <tr>
-    <td style="border: 1px solid black">Название</td>
-    <td style="border: 1px solid black"><input type="text" name="title"></td>
+    <td style="border: 1px solid black"><label for="title">Название</label></td>
+    <td style="border: 1px solid black"><input type="text" name="title" id="title"></td>
 </tr>
     <tr>
-        <td style="border: 1px solid black">Текст вашей статьи</td>
-        <td style="border: 1px solid black"><textarea name="text" id="" cols="30" rows="10"></textarea></td>
+        <td style="border: 1px solid black"><label for="textarea">Ваша статья</label></td>
+        <td style="border: 1px solid black"><textarea name="text" id="textarea" cols="30" rows="10"></textarea></td>
     </tr>
     <tr>
-        <td style="border: 1px solid black">Дата публикации</td>
-        <td style="border: 1px solid black"><input type="date" name="date"></td>
+        <td style="border: 1px solid black"><label for="date">Дата публикации</label></td>
+        <td style="border: 1px solid black"><input type="date" name="date" id="date"></td>
 
     </tr>
     <tr>
-        <td style="border: 1px solid black">Время публикации</td>
-        <td style="border: 1px solid black"><input type="time"></td>
+        <td style="border: 1px solid black"><label for="time">Время публикации</label></td>
+        <td style="border: 1px solid black"><input type="time" id="time"></td>
 
     </tr>
     <tr>
