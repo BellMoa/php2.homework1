@@ -16,8 +16,6 @@
     </tr>
     <?php endforeach;?>
 </table>
-
-
-
+<p><a href="/add.php">Добавить новость</a></p>
 </body>
 </html>
