@@ -15,3 +15,8 @@ function getFromDB($sql){
     return $tmp;
 }
 
+function insertIntoDB($sql){
+    $resource=sqlConnect();
+    mysqli_query($resource,$sql);
+}
+
