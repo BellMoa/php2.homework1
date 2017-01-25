@@ -21,4 +21,3 @@ return false;
 }
 
 
-require __DIR__ . '/view/add.php';
